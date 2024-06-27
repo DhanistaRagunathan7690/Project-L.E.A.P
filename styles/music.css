@@ -1,0 +1,23 @@
+.music-button {
+  position: fixed;
+  right: 15px;
+  top: 120px;
+  background-color: white;
+  border-radius: 50px;
+  z-index: 2;
+  text-align: center;
+  font-size: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.music-button-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.music-button:hover {
+  cursor: pointer;
+}

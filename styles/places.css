@@ -1,0 +1,1521 @@
+
+.places-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 200px;
+  margin: 0;
+}
+
+.places-title {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 130px;
+	color: white;
+	text-align: center;
+  margin-top: -10px;
+  margin-bottom: -1000px;
+}
+
+.continent-1 {
+  margin-top: 100px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+.continent-2 {
+  border-radius: 20px;
+}
+
+.continent-3 {
+  padding-top: 50px;
+  border-radius: 20px;
+}
+
+.continent-4 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+.continent-5 {
+  border-radius: 20px;
+}
+
+.continent-6 {
+  margin-top: -100px;
+  border-radius: 20px;
+}
+
+.continent-and-horn {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+.continent-and-tail {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  padding-left: 100px;
+}
+
+.continent-and-head {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  padding-left: 105px;
+  padding-bottom: 10px;
+}
+
+.continent-and-crown {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+.continent-and-tapir {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+.continent-and-koala {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+.rhino-horn-container {
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+
+.tiger-tail-container {
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+
+.giraffe-head-container {
+  height: 100px;
+  width: 100px;
+}
+
+.lion-crown-container {
+  height: 70px;
+  width: 70px;
+  z-index: 1;
+}
+
+.tapir-head-container {
+  height: 75px;
+  width: 75px;
+  z-index: 1;
+}
+
+.koala-tree-container {
+  height: 75px;
+  width: 75px;
+  z-index: 1;
+}
+
+.rhino-horn {
+  width: 100%;
+  height: 100%;
+  margin-left: 357.6px;
+  margin-top: 30px;
+}
+
+.tiger-tail {
+  width: 100%;
+  height: 100%;
+  margin-left: -335px;
+  margin-top: 89px;
+  transform: rotate(46deg);
+}
+
+.giraffe-head {
+  width: 100%;
+  height: 100%;
+  margin-top: 65px;
+  margin-left: 436.5px;
+}
+
+.lion-crown {
+  width: 100%;
+  height: 100%;
+  margin-top: 37px;
+  margin-left: 610px;
+  transform: rotate(-30deg);
+}
+
+.tapir-head {
+  width: 100%;
+  height: 100%;
+  margin-left: 610px;
+  margin-top: 48px;
+  transform: rotate(20deg);
+}
+
+.koala-tree {
+  width: 100%;
+  height: 100%;
+  margin-left: 505px;
+  margin-top: 70px;
+}
+
+.tapir-white {
+  color: black;
+}
+
+.tapir-black {
+  color: white;
+}
+
+.continent-name {
+  color: #565E75;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 90px;
+	font-weight: bold;
+  margin-left: -100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.continent-name-2 {
+  color: #734650;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 90px;
+	font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.continent-name-3 {
+  color: #eec774;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 90px;
+	font-weight: bold;
+  margin-left: -180px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  z-index: 1;
+}
+
+.continent-name-4 {
+  color: #925B46;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 90px;
+	font-weight: bold;
+  margin-left: -100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.continent-name-5 {
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 90px;
+	font-weight: bold;
+  margin-left: -100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.continent-name-6 {
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 90px;
+	font-weight: bold;
+  margin-left: -100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #37595c;
+}
+
+
+.sanctuary-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sanctuary1-container {
+  background-color: #565E75;
+  display: grid;
+  grid-template-rows: 300px 100px 100px 100px 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.sanctuary2-container {
+  background-color: #734650;
+  display: grid;
+  grid-template-rows: 300px 100px 100px 100px 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.sanctuary3-container {
+  background-color: #f1bf54;
+  display: grid;
+  grid-template-rows: 300px 100px 100px 100px 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.sanctuary4-container {
+  background-color: #925B46;
+  display: grid;
+  grid-template-rows: 300px 100px 100px 100px 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.sanctuary5-container1 {
+  background-color: rgb(28, 28, 28);
+  display: grid;
+  grid-template-rows: 300px 100px 100px 100px 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.sanctuary5-container2 {
+  background-color: rgb(230, 228, 228);
+  display: grid;
+  grid-template-rows: 300px 100px 100px 100px 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.sanctuary6-container {
+  background-color: #37595c;
+  display: grid;
+  grid-template-rows: 300px 100px 100px 100px 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.sanctuary-pic-line {
+  display: grid;
+  grid-template-columns: 100px 500px 100px;
+  transition: transform .2s;
+}
+
+
+.sanctuary-icon-container {
+  z-index: 1;
+}
+
+.tape-container {
+  width: 100px;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.tape-container2 {
+  width: 100px;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+
+.sanctuary-pic-container {
+  padding-top: 20px;
+}
+
+.sanctuary-pic-general {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sanctuary-name {
+  background-color: #565E75;
+  color: #FAF0CE;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.sanctuary-name-2 {
+  background-color: #734650;
+  color: #FFBE82;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  margin-top: 10px;
+  z-index: 1;
+  padding-left: 20px;
+}
+
+.sanctuary-name-3 {
+  background-color: #f1bf54;
+  color: #563907;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+
+.sanctuary-name-4 {
+  background-color: #925B46;
+  color: #FFD597;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.sanctuary-name-5-1 {
+  background-color: rgb(28, 28, 28);
+  color: rgb(230, 228, 228);
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.sanctuary-name-5-2 {
+  background-color: rgb(230, 228, 228);
+  color: rgb(28, 28, 28);
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.sanctuary-name-6 {
+  background-color: #37595c;
+  color: #75cfcc;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.sanctuary-location {
+  color: white;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 25px;
+	font-weight: bold;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.sanctuary-location-2 {
+  color: white;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 25px;
+	font-weight: bold;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.sanctuary-location-3 {
+  color: white;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 25px;
+	font-weight: bold;
+  padding-top: 85px;
+  padding-left: 20px;
+}
+
+.sanctuary-location-4 {
+  color: white;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 25px;
+	font-weight: bold;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.sanctuary-location-5-1 {
+  color: rgb(230, 228, 228);
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 25px;
+	font-weight: bold;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sanctuary-location-5-2 {
+  color: rgb(28, 28, 28);
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 25px;
+	font-weight: bold;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sanctuary-location-6 {
+  color: white;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 25px;
+	font-weight: bold;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.amount-received-container {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  padding-right: 10px;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.receive-icon1, .receive-icon2, .receive-icon3, .receive-icon1-2, .receive-icon2-2, .receive-icon3-2, .receive-icon1-3, .receive-icon2-3, .receive-icon1-4, .receive-icon2-4, .receive-icon1-5-1, .receive-icon2-5-1, .receive-icon1-5-2, .receive-icon2-5-2, .receive-icon1-6, .receive-icon2-6 {
+  height: 70px;
+  width: 70px;
+  margin-top: 20px;
+}
+
+.receive-icon1 {
+  background-color: #989EAF;
+  border-radius: 100%;
+  margin-left: 60px;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon2 {
+  background-color: #989EAF;
+  border-radius: 100%;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon1-2 {
+  background-color: #f8a042;
+  border-radius: 100%;
+  margin-left: 60px;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon2-2 {
+  background-color: #f8a042;
+  border-radius: 100%;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon1-3 {
+  background-color: #66342E;
+  border-radius: 100%;
+  margin-left: 60px;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon2-3 {
+  background-color: #66342E;
+  border-radius: 100%;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon1-4 {
+  background-color: #f5c889;
+  border-radius: 100%;
+  margin-left: 60px;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon2-4 {
+  background-color: #f5c889;
+  border-radius: 100%;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon1-5-1 {
+  background-color: rgb(230, 228, 228);
+  border-radius: 100%;
+  margin-left: 60px;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon2-5-1 {
+  background-color: rgb(230, 228, 228);
+  border-radius: 100%;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon1-5-2 {
+  background-color: rgb(28, 28, 28);
+  border-radius: 100%;
+  margin-left: 60px;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon2-5-2 {
+  background-color: rgb(28, 28, 28);
+  border-radius: 100%;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon1-6 {
+  background-color: rgb(127, 176, 176);
+  border-radius: 100%;
+  margin-left: 60px;
+  transition: transform .2s , width .2s;
+}
+
+.receive-icon2-6 {
+  background-color: rgb(127, 176, 176);
+  border-radius: 100%;
+  transition: transform .2s , width .2s;
+}
+
+.x-mark-1 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(45deg);
+  margin-left: 32px;
+  margin-top: -5px;
+  background-color: #565E75;
+  transition: transform .2s;
+}
+
+.x-mark-2 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(-45deg);
+  margin-top: -80px;
+  margin-left: 31px;
+  background-color: #565E75;
+  transition: transform .2s;
+}
+
+.x-mark-1-2 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(45deg);
+  margin-left: 32px;
+  margin-top: -5px;
+  background-color: #734650;
+  transition: transform .2s;
+}
+
+.x-mark-2-2 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(-45deg);
+  margin-top: -80px;
+  margin-left: 31px;
+  background-color: #734650;
+  transition: transform .2s;
+}
+
+.x-mark-1-3 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(45deg);
+  margin-left: 32px;
+  margin-top: -5px;
+  background-color: #f1bf54;
+  transition: transform .2s;
+}
+
+.x-mark-2-3 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(-45deg);
+  margin-top: -80px;
+  margin-left: 31px;
+  background-color: #f1bf54;
+  transition: transform .2s;
+}
+
+.x-mark-1-4 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(45deg);
+  margin-left: 32px;
+  margin-top: -5px;
+  background-color: #925B46;
+  transition: transform .2s;
+}
+
+.x-mark-2-4 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(-45deg);
+  margin-top: -80px;
+  margin-left: 31px;
+  background-color: #925B46;
+  transition: transform .2s;
+}
+
+.x-mark-1-5-1 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(45deg);
+  margin-left: 32px;
+  margin-top: -5px;
+  background-color: rgb(28, 28, 28);
+  transition: transform .2s;
+}
+
+.x-mark-2-5-1 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(-45deg);
+  margin-top: -80px;
+  margin-left: 31px;
+  background-color: rgb(28, 28, 28);
+  transition: transform .2s;
+}
+
+.x-mark-1-5-2 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(45deg);
+  margin-left: 32px;
+  margin-top: -5px;
+  background-color: rgb(230, 228, 228);
+  transition: transform .2s;
+}
+
+.x-mark-2-5-2 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(-45deg);
+  margin-top: -80px;
+  margin-left: 31px;
+  background-color: rgb(230, 228, 228);
+  transition: transform .2s;
+}
+
+.x-mark-1-6 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(45deg);
+  margin-left: 32px;
+  margin-top: -5px;
+  background-color: #37595c;
+  transition: transform .2s;
+}
+
+.x-mark-2-6 {
+  height: 80px;
+  width: 7px;
+  transform: rotate(-45deg);
+  margin-top: -80px;
+  margin-left: 31px;
+  background-color: #37595c;
+  transition: transform .2s;
+}
+
+
+.receive-icon1:hover .x-mark-1{
+  transform: rotate(180deg);
+}
+
+.receive-icon1:hover .x-mark-2{
+  transform: rotate(90deg);
+}
+
+.receive-icon2:hover .x-mark-1{
+  transform: rotate(-90deg);
+}
+
+.receive-icon2:hover .x-mark-2{
+  transform: rotate(-180deg);
+}
+
+.receive-icon1-2:hover .x-mark-1-2{
+  transform: rotate(180deg);
+}
+
+.receive-icon1-2:hover .x-mark-2-2{
+  transform: rotate(90deg);
+}
+
+.receive-icon2-2:hover .x-mark-1-2{
+  transform: rotate(-90deg);
+}
+
+.receive-icon2-2:hover .x-mark-2-2{
+  transform: rotate(-180deg);
+}
+
+.receive-icon1-3:hover .x-mark-1-3{
+  transform: rotate(180deg);
+}
+
+.receive-icon1-3:hover .x-mark-2-3{
+  transform: rotate(90deg);
+}
+
+.receive-icon2-3:hover .x-mark-1-3{
+  transform: rotate(-90deg);
+}
+
+.receive-icon2-3:hover .x-mark-2-3{
+  transform: rotate(-180deg);
+}
+
+.receive-icon1-4:hover .x-mark-1-4{
+  transform: rotate(180deg);
+}
+
+.receive-icon1-4:hover .x-mark-2-4{
+  transform: rotate(90deg);
+}
+
+.receive-icon2-4:hover .x-mark-1-4{
+  transform: rotate(-90deg);
+}
+
+.receive-icon2-4:hover .x-mark-2-4{
+  transform: rotate(-180deg);
+}
+
+.receive-icon1-5-1:hover .x-mark-1-5-1{
+  transform: rotate(180deg);
+}
+
+.receive-icon1-5-1:hover .x-mark-2-5-1{
+  transform: rotate(90deg);
+}
+
+.receive-icon2-5-1:hover .x-mark-1-5-1{
+  transform: rotate(-180deg);
+}
+
+.receive-icon2-5-1:hover .x-mark-2-5-1{
+  transform: rotate(-90deg);
+}
+
+.receive-icon1-5-2:hover .x-mark-1-5-2{
+  transform: rotate(180deg);
+}
+
+.receive-icon1-5-2:hover .x-mark-2-5-2{
+  transform: rotate(90deg);
+}
+
+.receive-icon2-5-2:hover .x-mark-1-5-2{
+  transform: rotate(-180deg);
+}
+
+.receive-icon2-5-2:hover .x-mark-2-5-2{
+  transform: rotate(-90deg);
+}
+
+.receive-icon1-6:hover .x-mark-1-6{
+  transform: rotate(180deg);
+}
+
+.receive-icon1-6:hover .x-mark-2-6{
+  transform: rotate(90deg);
+}
+
+.receive-icon2-6:hover .x-mark-1-6{
+  transform: rotate(-90deg);
+}
+
+.receive-icon2-6:hover .x-mark-2-6{
+  transform: rotate(-180deg);
+}
+
+.receive-icon1:hover, .receive-icon2:hover, .receive-icon1-2:hover, .receive-icon2-2:hover, .receive-icon1-3:hover, .receive-icon2-3:hover, .receive-icon1-4:hover, .receive-icon2-4:hover, .receive-icon1-5-1:hover, .receive-icon2-5-1:hover, .receive-icon1-5-2:hover, .receive-icon2-5-2:hover, .receive-icon1-6:hover, .receive-icon2-6:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.amount-received-cash {
+  background-color: #FAF0CE;
+  color: #565E75;
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 30px;
+  transition: transform .2s;
+}
+
+.amount-received-cash-2 {
+  background-color: #FFBE82;
+  color: #734650;
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 30px;
+  transition: transform .2s;
+}
+
+.amount-received-cash-3 {
+  background-color: #563907;
+  color: #f1bf54;
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 30px;
+  transition: transform .2s;
+}
+
+.amount-received-cash-4 {
+  background-color: #FFD597;
+  color: #925B46;
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 30px;
+  transition: transform .2s;
+}
+
+.amount-received-cash-5-1 {
+  background-color: rgb(230, 228, 228);
+  color: rgb(28, 28, 28);
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 30px;
+  transition: transform .2s;
+}
+
+.amount-received-cash-5-2 {
+  background-color: rgb(28, 28, 28);
+  color: rgb(230, 228, 228);
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 30px;
+  transition: transform .2s;
+}
+
+.amount-received-cash-6 {
+  background-color: #75cfcc;
+  color: #37595c;
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+	font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 30px;
+  transition: transform .2s;
+}
+
+.amount-received-cash:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  color: #FAF0CE;
+  background-color: #565E75;
+}
+
+.amount-received-cash-2:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  color: #FFBE82;
+  background-color: #734650;
+}
+
+.amount-received-cash-3:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  color: #563907;
+  background-color: #f1bf54;
+}
+
+.amount-received-cash-4:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  color: #FFD597;
+  background-color: #925B46;
+}
+
+.amount-received-cash-5-1:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  color: rgb(230, 228, 228);
+  background-color: rgb(28, 28, 28);
+}
+
+.amount-received-cash-5-2:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  color: rgb(28, 28, 28);
+  background-color: rgb(230, 228, 228);
+}
+
+.amount-received-cash-6:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  color: #75cfcc;
+  background-color: #37595c;
+}
+
+.facts-container {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.facts-container-1 {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 10px;
+  color: #414758;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: #989EAF;
+  z-index: 1;
+  transition: transform .2s;
+}
+
+.facts-container-2 {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 10px;
+  color: #633d45;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: #f8a042;
+  z-index: 1;
+  transition: transform .2s;
+}
+
+.facts-container-3 {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 10px;
+  color: #f3be4d;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: #66342E;
+  z-index: 1;
+  transition: transform .2s;
+}
+
+.facts-container-4 {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 10px;
+  color: #82503c;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: #f5c889;
+  z-index: 1;
+  transition: transform .2s;
+}
+
+.facts-container-5-1 {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 10px;
+  color: rgb(37, 37, 37);
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: rgb(230, 228, 228);
+  z-index: 1;
+  transition: transform .2s;
+}
+
+.facts-container-5-2 {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 10px;
+  color: rgb(255, 255, 255);
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: rgb(28, 28, 28);
+  z-index: 1;
+  transition: transform .2s;
+}
+
+.facts-container-6 {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 10px;
+  color: #335254;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: rgb(127, 176, 176);
+  z-index: 1;
+  transition: transform .2s;
+}
+
+
+.facts-container-1:hover, .facts-container-2:hover, .facts-container-3:hover, .facts-container-4:hover, .facts-container-5-1:hover, .facts-container-5-2:hover, .facts-container-6:hover {
+  transform: scale(1.05);
+}
+
+.fact-sanctuary-container-1-1 {
+  align-items: center;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+.fact-sanctuary-container-2-1 {
+  align-items: center;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+.fact-sanctuary-container-3-1 {
+  align-items: center;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+.fact-sanctuary-container-4-1 {
+  align-items: center;
+  margin-top: 50px;
+  padding-right: 20px;
+}
+
+.fact-sanctuary-container-1-2 {
+  align-items: center;
+  padding-right: 20px;
+}
+
+.fact-sanctuary-container-2-2 {
+  align-items: center;
+  padding-right: 20px;
+}
+
+.fact-sanctuary-container-3-2 {
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+.fact-sanctuary-container-4-2 {
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 50px;
+  margin-top: -30px;
+}
+
+.fact-sanctuary-container-1-3 {
+  align-items: center;
+  margin-top: -60px;
+  padding-right: 20px;
+  border-radius: 50px;
+}
+
+.fact-sanctuary-container-2-3 {
+  align-items: center;
+  margin-top: -60px;
+  padding-right: 20px;
+  border-radius: 50px;
+}
+
+.fact-sanctuary-container-3-3 {
+  align-items: center;
+  margin-top: -60px;
+  padding-right: 20px;
+  border-radius: 50px;
+  padding-top: 50px;
+}
+
+.fact-sanctuary-container-4-3 {
+  align-items: center;
+  margin-top: -60px;
+  padding-right: 20px;
+  border-radius: 50px;
+  padding-top: 50px;
+}
+
+.fact-sanctuary-container-5-1 {
+  align-items: center;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  margin-top: 40px;
+  border-radius: 50px;
+}
+
+.fact-sanctuary-container-5-2 {
+  align-items: center;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  margin-top: 40px;
+  border-radius: 50px;
+}
+
+.fact-sanctuary-container-6-1 {
+  align-items: center;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  padding-right: 20px;
+  border-radius: 50px;
+}
+
+.fact-sanctuary-container-6-2 {
+  align-items: center;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  border-radius: 50px;
+}
+
+.fact-sanctuary-container-6-3 {
+  align-items: center;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  border-radius: 50px;
+}
+
+.circle-pin {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  column-gap: 590px;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.pin1-line {
+  background-color: #FAF0CE;
+  border-bottom: 5px solid #3f3e3e;
+  height: 100px;
+  width: 3px;
+  margin-left: 14px;
+  margin-top: -75px;
+  padding-bottom: 20px;
+}
+
+.pin1-line-2 {
+  background-color: #FFBE82;
+  border-bottom: 5px solid #3f3e3e;
+  height: 100px;
+  width: 3px;
+  margin-left: 14px;
+  margin-top: -75px;
+  padding-bottom: 20px;
+}
+
+.pin1-line-3 {
+  background-color: #563907;
+  border-bottom: 5px solid #3f3e3e;
+  width: 3px;
+  height: 100px;
+  margin-left: 34px;
+  margin-top: -5px;
+  padding-bottom: 20px;
+}
+
+.pin1-line-4 {
+  background-color: #bc9a68;
+  border-bottom: 5px solid #3f3e3e;
+  width: 3px;
+  height: 100px;
+  margin-left: 34px;
+  margin-top: -5px;
+  padding-bottom: 20px;
+}
+
+.pin1-line-5-1 {
+  background-color: rgb(244, 239, 239);
+  border-bottom: 5px solid #3f3e3e;
+  width: 3px;
+  height: 100px;
+  margin-left: 34px;
+  margin-top: -5px;
+  padding-bottom: 20px;
+}
+
+.pin1-line-5-2 {
+  background-color: rgb(45, 44, 44);
+  border-bottom: 5px solid #3f3e3e;
+  width: 3px;
+  height: 100px;
+  margin-left: 34px;
+  margin-top: -5px;
+  padding-bottom: 20px;
+}
+
+.pin1-line-6 {
+  background-color: #75cfcc;
+  border-bottom: 5px solid #3f3e3e;
+  width: 3px;
+  height: 100px;
+  margin-left: 34px;
+  margin-top: -5px;
+  padding-bottom: 20px;
+}
+
+.receive-icon1:hover .pin1-line {
+  transform: scale(0.6);
+}
+
+.receive-icon2:hover .pin1-line {
+  transform: scale(0.6);
+}
+
+.receive-icon1-2:hover .pin1-line {
+  transform: scale(0.6);
+}
+
+.receive-icon2-2:hover .pin1-line {
+  transform: scale(0.6);
+}
+
+.receive-icon1-2:hover .pin1-line-2 {
+  transform: scale(0.6);
+}
+
+.receive-icon2-2:hover .pin1-line-2 {
+  transform: scale(0.6);
+}
+
+.receive-icon1-3:hover .pin1-line-3 {
+  transform: scale(0.6);
+}
+
+.receive-icon2-3:hover .pin1-line-3 {
+  transform: scale(0.6);
+}
+
+.receive-icon1-4:hover .pin1-line-4 {
+  transform: scale(0.6);
+}
+
+.receive-icon2-4:hover .pin1-line-4 {
+  transform: scale(0.6);
+}
+
+.receive-icon1-5-1:hover .pin1-line-5-1 {
+  transform: scale(0.6);
+}
+
+.receive-icon2-5-1:hover .pin1-line-5-1 {
+  transform: scale(0.6);
+}
+
+.receive-icon1-5-2:hover .pin1-line-5-2 {
+  transform: scale(0.6);
+}
+
+.receive-icon2-5-2:hover .pin1-line-5-2 {
+  transform: scale(0.6);
+}
+
+.receive-icon1-6:hover .pin1-line-6 {
+  transform: scale(0.6);
+}
+
+.receive-icon2-6:hover .pin1-line-6 {
+  transform: scale(0.6);
+}
+
+.fact-text {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.acronym-class {
+  font-style: italic;
+  color: #FAF0CE;
+  transition: font-weight 0.2s;
+  transition: text-shadow 0.2s;
+}
+
+.acronym-class:hover {
+  cursor: pointer;
+  font-weight: bold;  
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.places-section a {
+  text-decoration: none;
+  color: black;
+}
+

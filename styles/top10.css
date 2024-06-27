@@ -1,0 +1,145 @@
+.animal-info-section {
+  padding-top: 50px;
+  background-color: #3a4634;
+}
+
+.animal-info-section-title {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 100px;
+	color: white;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.animal-container {
+  padding-bottom: 100px;
+}
+
+
+.animal-card {
+  background-color: whitesmoke; /*white-mode*/
+  /*background-color: black;*/ /*black-mode*/
+  /*color: white; */ /*black-mode*/
+  color: black; /*white-mode*/ 
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  min-width: 1336px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  position: inherit;
+}
+
+
+.img-box {
+  border-radius: 15px;
+  width: 450px;
+}
+
+.animal-pic1, .animal-pic3, .animal-pic5, .animal-pic7, .animal-pic9 {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-bottom: -4px;
+}
+
+.animal-pic2, .animal-pic4, .animal-pic6, .animal-pic8, .animal-pic10 {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: -4px;
+}
+
+.info-box {
+  flex: 1;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-right: 10px; 
+  /*background-color: lightcoral;*/
+}
+
+.name-animals {
+  height: 30px;
+  font-weight: bold;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.description-box {
+  flex: 1;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /*background-color: lightgreen;*/
+}
+
+.description1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  /*background-color: lightblue;*/
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 50px;
+  margin-left: 15px;
+}
+
+.icon-pic {
+  width: 100%;
+  height: 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /*background-color: lightgreen;*/
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: 10px;
+  line-height: 35px;
+}
+
+.description2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  /*background-color: lightpink;*/
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.description3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  /*background-color: lightblue;*/
+  border-bottom-right-radius: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+

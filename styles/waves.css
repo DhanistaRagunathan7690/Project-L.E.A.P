@@ -1,0 +1,157 @@
+.waves-section-footer {
+    margin: 0;
+    background: linear-gradient(
+      60deg,
+      rgb(48, 60, 84) 0%,
+      rgba(144, 148, 164, 1) 100%
+    );
+    padding-top: 0px;
+}
+
+
+.first-line {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: -30px;
+}
+
+.love {
+  height: 100px;
+  width: 100px;
+  margin-left: 750px;
+  margin-bottom: -20px;
+  rotate: 5deg;
+}
+
+.logo-social {
+  height: 300px;
+  width: 300px;
+  margin-left: -1060px;
+  margin-top: -200px;
+  rotate: -3deg;
+}
+
+.logo {
+  background-color: rgb(161, 166, 184)
+}
+
+
+.social-text {
+  font-size: 50px;
+  padding-left: 10px;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.media {
+  margin-left: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: -90px;
+  margin-bottom: 50px;
+}
+
+.discord, .facebook, .instagram, .twitch, .youTube, .tikTok {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.discord:hover, .facebook:hover, .instagram:hover, .twitch:hover, .youTube:hover, .tikTok:hover {
+  transform: scale(1.5);
+}
+
+.info-wave {
+  display: flex;
+  flex-direction: row;
+  background-color: #a1a6b8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.faq-box, .contact-box, .press-box, .name-box {
+  flex: 1;
+  text-align: center;
+  font-family: Patrick Hand;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  transition: transform .2s, color .1s, text-decoration .5s ;
+}
+
+.faq-box:hover, .contact-box:hover, .press-box:hover, .name-box:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  color: black;
+  text-decoration: underline;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+}
+
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.parallax> use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite; 
+}
+
+.parallax>use:nth-child(1){
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2){
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3){
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4){
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+@media(max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+
+  .content {
+    height: 30vh;
+
+  }
+}
+
+

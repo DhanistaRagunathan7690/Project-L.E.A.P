@@ -1,0 +1,190 @@
+.donors-section {
+  padding-top: 50px;
+  background-color: #84846f;
+  padding-bottom: 100px;
+}
+
+.donor-title {
+	font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 100px;
+	color: white;
+	text-align: center;
+  margin-bottom: 30px;
+}
+
+.donor-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.onceler-container, .lorax-container, .finn-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(37, 82, 97);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.candance-container, .marco-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(37, 82, 97);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+
+.giraffe {
+  height: 70px;
+  width: 70px;
+}
+
+.elephant {
+  height: 70px;
+  width: 70px;
+  transform: scaleX(-1)
+}
+
+.name {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+  transition: text-shadow .2s;
+  color: white;
+}
+
+.name:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px 0px rgb(45, 44, 44), 0 0 25px rgb(159, 159, 234), 0 0 10px darkblue
+}
+
+.sellotape {
+  height: 100px;
+  width: 100px;
+  transform: rotate(-45deg);
+  margin-left: 240px;
+  margin-bottom: -60px;
+  z-index: 2;
+}
+
+.sellotape2 {
+  height: 100px;
+  width: 100px;
+  transform: rotate(-45deg);
+  margin-top: -70px;
+  margin-left: -40px;
+}
+
+.img-container {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.onceler-img, .lorax-img, .finn-img, .candance-img, .marco-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  align-self: center;
+  transition: transform .2s;
+}
+
+.quote {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 25px;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.donate-amount-container {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.donate-amount-text {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  width: 150px;
+  padding-top: 10px;
+}
+
+.donated-money-container {
+  display: grid;
+  grid-template-columns: 50px 150px 50px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.donate-img-container {
+  z-index: 1;
+}
+
+.donor-img {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  transition: transform .2s;
+}
+
+.donor-img:hover {
+  cursor: pointer;
+  transform: rotate(-180deg);
+}
+
+.donor-img2 {
+  height: 50px;
+  width: 50px;
+  margin-left: -35px;
+  margin-bottom: -40px;
+  transform: rotate(-180deg);
+  transition: transform .2s;
+}
+
+.donor-img2:hover {
+  cursor: pointer;
+  transform: rotate(-1deg);
+}
+
+.money-donated {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding-top: 10px;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,321 @@
+html {
+	scroll-behavior: smooth;  
+  overflow-x:hidden;
+	font-size: 8px;
+}
+
+body {
+	background: rgb(26, 26, 26);
+	margin: 0;
+}
+
+
+/*confirm font with soo ting*/
+
+
+.mission-section {
+	background-color: #525246;
+	padding-bottom: 100px;
+}
+
+.text-members {
+	font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+	font-size: 30px;
+}
+
+.mission-title {
+	font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 130px;
+	color: white;
+	margin-bottom: -100px;
+	text-align: center;
+}
+
+.chat-container {
+ 
+  background: whitesmoke;
+  background-image: linear-gradient(rgb(0, 0, 0) .1em, transparent .1em), linear-gradient(90deg, rgb(0, 0, 0) .1em, transparent .1em);
+  background-size: 3em 3em;
+
+	left: 0;
+	right: 0;
+	display: grid;
+	grid-template-rows: 50px 250px 250px 250px 250px;
+	row-gap: 50px;
+	margin: 100px;
+	
+	padding-bottom: 150px;
+}
+
+.traffic-container {
+	background-color: rgb(0, 0, 0);
+	display: grid;
+	grid-template-columns: 50px 50px 50px;
+	align-items: center;
+}
+
+.red-traffic {
+	height: 25px;
+	width: 25px;
+	border-radius: 15px;
+	background-color: red;
+	margin-left: 10px;
+	border: 3px solid black;
+	transition: background-color .2s;
+	transition: transform .2s;
+}
+
+.yellow-traffic {
+	height: 25px;
+	width: 25px;
+	border-radius: 15px;
+	background-color: rgb(249, 249, 94);
+	margin-left: 10px;
+	border: 3px solid black;
+	transition: background-color .2s;
+	transition: transform .2s;
+}
+
+.green-traffic {
+	height: 25px;
+	width: 25px;
+	border-radius: 15px;
+	background-color: rgb(56, 238, 56);
+	margin-left: 10px;
+	border: 3px solid black;
+	transition: background-color .2s;
+	transition: transform .2s;
+}
+
+.red-traffic:hover {
+	background-color: rgb(177, 5, 5);
+	transform: scale(1.5);
+}
+
+.yellow-traffic:hover {
+	background-color: rgb(200, 200, 71);
+	transform: scale(1.5);
+}
+
+.green-traffic:hover {
+	background-color: rgb(38, 158, 38);
+	transform: scale(1.5);
+}
+
+.red-traffic:hover, .yellow-traffic:hover, .green-traffic:hover {
+	cursor: pointer;
+}
+
+.sooting-container {
+/*background-color: rgb(139, 160, 177);*/
+	display: flex;
+	flex-direction: row;
+}	
+
+
+.marissa-container {
+/*background-color: antiquewhite;*/
+	display: flex;
+	flex-direction: row;	
+}
+
+.chan-container {
+/*background-color: cornflowerblue;*/
+	display: flex;
+	flex-direction: row;	
+}
+
+.dhanis-container {
+/*background-color: aquamarine;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.sooting-pic, .marissa-pic, .chan-pic, .dhanis-pic {
+	height: 250px;
+	width: 250px;
+	margin-left: 25px;
+	margin-right: 20px;
+	border-radius: 100%;
+	transition: all .2s;
+}
+
+
+.sooting-pic:hover, .marissa-pic:hover, .chan-pic:hover, .dhanis-pic:hover{
+	cursor: pointer;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(93, 19, 19, 0.5));
+  filter: drop-shadow(0px 15px 10px rgb(0, 0, 0));
+	transform: translateY(-10px);
+}
+
+.pic-container {
+/*background-color: lightblue;*/
+	flex: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.text-container {
+/*background-color: lightpink;*/
+	flex: 5;
+}
+
+.talk-bubble {
+	margin-right: 20px;
+	margin-left: 30px;
+	margin-top: 150px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+  display: inline-block;
+  position: relative;
+	width: auto;
+	height: 70px;
+	background-color: rgb(232, 232, 190);  
+	border-radius: 15px;
+}
+
+.talk-bubble-right {
+	margin-top: 150px;
+	margin-left: 100px;
+	margin-right: 10px;
+  display: inline-block;
+  position: relative;
+	width: auto;
+	height: 70px;
+	background-color: rgb(232, 232, 190); 
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+
+
+.tri-right.border.right-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: rgb(232, 232, 190) transparent transparent rgb(232, 232, 190);
+}
+
+.flip-horizontal {
+	transform: scaleX(-1);
+}
+
+.talktext{
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+  padding-left: 100px;
+  line-height: 1.5em;
+	text-align: left;
+}
+.talktext .text-members{
+  /* remove webkit p margins */
+	padding-top: 6px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+	transform: scaleX(-1);
+	padding-left: 10px;
+}
+
+.talktext-right-text {
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+  padding-left: 100px;
+  line-height: 1.5em;
+	text-align: left;
+	padding-top: 30px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+/*tooltip*/
+
+.tooltip {
+  position: relative;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tooltip .tooltiptext {
+  opacity: 0;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 6px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 400px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+	transition: opacity ease 0.5s;
+	font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 20px;
+	font-weight: bold;
+}
+
+.tooltip-right .tooltiptext {
+  opacity: 0;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 6px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: -400px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+	transition: opacity ease 0.5s;
+	font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 20px;
+	font-weight: bold;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+}
+
+.tooltip-right:hover .tooltiptext {
+  opacity: 1;
+}

@@ -1,0 +1,169 @@
+html { /*html to whole thing*/
+
+}
+
+body { /*body to whole thing*/
+  overflow-x: hidden;
+}
+
+.globe-section {
+  background: rgba(44, 44, 44, 0.822);
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto", Helvetica, sans-serif;
+  margin: auto;
+  padding: 0 100px;
+  overflow-x: hidden;
+}
+
+
+
+.description {
+  max-width: 600px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-world-title, .title-box-world, 
+img,
+footer {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.main-world-title,
+.title-box-world
+{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.main-world-title {
+  font-size: 36pt;
+  padding-top: 80px;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.title-box-world {
+  font-size: 24pt;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.explain-box-world-description {
+  font-size: 15pt;
+  margin-bottom: 12pt;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.explain-box-world {
+  font-size: 20pt;
+  margin-bottom: 12pt;
+}
+
+.explain-box-world {
+  background-color: rgb(83, 133, 179);
+  height: 50px;
+  margin-left: 30px;
+  margin-top: -10px;
+  border-radius: 15px;
+  padding-top: 15px;
+  width: 200px;
+  transition: background-color .2s,;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+  transition: background-color .5s, color .5s;
+}
+
+.explain-box-world:hover {
+  background-color: rgb(161, 204, 245);
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  text-decoration: none;
+}
+
+.centered-y {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.distribution-map {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.distribution-map > .pic-world {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.distribution-map .map-point {
+  cursor: pointer;
+  outline: none;
+  z-index: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  background: rgba(26, 26, 26, 0.85);
+  border: 5px solid rgb(157, 202, 225);
+}
+.distribution-map .map-point .content {
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  width: 90%;
+  height: 90%;
+  left: 7%;
+  transform: translateX(-2%);
+  overflow: overlay;
+  background: rgba(26, 26, 26, 0.85);
+}
+.distribution-map .map-point:active,
+.distribution-map .map-point:focus {
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  width: 300px;
+  height: 220px;
+  color: #ffffff;
+  z-index: 1;
+  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+}
+.distribution-map .map-point:active .content,
+.distribution-map .map-point:focus .content {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out 0.25s, height 0 ease-in-out 0.25s, overflow 0 ease-in-out 0.25s;
+  overflow: hidden;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}

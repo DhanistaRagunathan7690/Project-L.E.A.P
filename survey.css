@@ -1,0 +1,131 @@
+body {
+    background-image: url(background-img/ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  .survey-section-form 
+  {
+    margin-bottom:50px;
+  }
+
+
+  .intro-survey {
+    color: rgb(54, 86, 54);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .title-survey {
+    text-align: center;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 70px;
+  }
+
+  .heading-survey {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: rgb(54, 86, 54);
+  }
+
+  .line-under-intro {
+    height: 3px;
+    background-color: #e9f8b3;
+    width: 1100px;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  
+  form {
+    background-color: rgb(245, 248, 247);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgb(2, 41, 26);;
+    width: 60vw;
+    max-width: 700px;
+    min-width: 350px;
+    margin: 0 auto;
+    padding: 15px 15px 25px 15px;
+  }
+  
+  label {
+    display: block;
+  }
+
+  .qs-survey {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-size: 23px;
+  }
+
+  .ans-survey {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin: 0.1em 0 1em 0;
+    min-height: 2em;
+    font-size: 0.67em;
+  }
+  
+  input,
+  select {
+    border-radius: 5px;
+  }
+  
+  textarea {
+    min-height: 6.33em;
+    resize: vertical;
+  }
+  
+.submit-button-survey
+  {
+    background-color: #5e8f94;
+    border: none;
+    color: rgb(245, 255, 250);
+    font-size: 3.33rem;
+    min-height: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s;
+  }
+  
+  .submit-button-survey:hover 
+  {
+    cursor: pointer;
+    background-color: #73B5BD;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  select:focus {
+    outline: none !important;
+    box-shadow: 0 0 7px rgb(4, 39, 6);
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    min-height: unset;
+    vertical-align: middle;
+  }
